@@ -1,0 +1,34 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--mapping the specific dao interfaces to specified SQL stattements-->
+<mapper namespace="seckill.dao.ProductsDao">
+
+    <!--Using SQL to filter instead of filtering inside Java, and the former is more efficient than the latter-->
+    <update id="reduceNum">
+        UPDATE products
+        SET product_num = product_num - 1
+        WHERE id = #{productId}
+              AND end_time >= #{killTime}
+              AND start_time <![CDATA[<=]]> #{killTime}
+              --               CDATA stands for Character Data
+              --               and it means that the data in between these strings includes data that could be interpreted as XML markup, but should not be.
+              AND product_num > 0;
+    </update>
+
+    <select id="queryProduct" resultType="Product">
+        SELECT *
+        FROM products
+        WHERE id = #{productId}
+    </select>
+
+    <!--Not using result-map is OK?-->
+    <select id="queryAll" resultType="Product">
+        SELECT *
+        FROM products
+        ORDER BY create_time DESC
+        LIMIT #{offset},#{limit};
+    </select>
+
+</mapper>

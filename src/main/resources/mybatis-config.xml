@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--For getting auto-generated primary keys by JDBC's getGeneratedKeys() method-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--if column labels/aliases are present, use them instead of original column names-->
+        <setting name="useColumnLabel" value="true"/>
+        <!--Enables automatic mapping from classic database column names a_column to camelcase classic Java property name aColumn-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--Leave the following part for MyBatis-Spring to take care of-->
+    <!--<environments default="development">-->
+        <!--<environment id="development">-->
+            <!--<transactionManager type="JDBC"/>-->
+            <!--<dataSource type="POOLED">-->
+                <!--<property name="driver" value="${jdbc.driverClassName}"/>-->
+                <!--<property name="url" value="${jdbc.url}"/>-->
+                <!--<property name="user" value="${jdbc.user}"/>-->
+                <!--<property name="password" value="${password}"/>-->
+            <!--</dataSource>-->
+        <!--</environment>-->
+    <!--</environments>-->
+<!--　　-->
+    <!--&lt;!&ndash;Leave the following part to MyBatis-Spring as well&ndash;&gt;-->
+    <!--<mappers>-->
+        <!--<mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
+    <!--</mappers>-->
+
+</configuration>

@@ -1,0 +1,32 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--mapping the specific dao interfaces to specified SQL stattements-->
+<mapper namespace="seckill.dao.SuccessKilledDao">
+    <insert id="insertSuccessKilled">
+        #         when doing seckill repeatedly, the primary keys would conflict
+        #         but that is not what I want, so I add "ignore" in it
+        INSERT IGNORE INTO success_killed (product_id, user_phone, state)
+        VALUES (#{productId}, #{userPhone}, 0)
+    </insert>
+
+    <select id="querySuccessKilled" resultType="SuccessKilled">
+        SELECT
+            sk.product_id,
+            sk.user_phone,
+            sk.state,
+            sk.create_time,
+            # tell MyBatis to map 'id' column in table products to
+            # the property id of the Product object which acts as one property of SeccessKilled object
+            prod.id            AS "product.id",
+            prod.product_name  AS "product.product_name",
+            prod.product_num   AS "product.product_num",
+            prod.product_price AS "product.product_price",
+            prod.create_time   AS "product.create_time",
+            prod.start_time    AS "product.start_time",
+            prod.end_time      AS "product.end_time"
+        FROM success_killed AS sk INNER JOIN products AS prod ON sk.product_id = prod.id
+        WHERE sk.product_id = #{productId} AND sk.user_phone = #{userPhone}
+    </select>
+</mapper>

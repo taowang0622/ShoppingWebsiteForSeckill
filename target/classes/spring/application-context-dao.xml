@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Load the properties file for configuring the database connection-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!--database connection pool-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+
+        <!--set initial connection number in the pool -->
+        <property name="initialSize" value="10"/>
+        <property name="maxActive" value="30"/>
+        <!--set maxIdle equal to minIdle for avoiding creating connections frequently-->
+        <property name="maxIdle" value="10"/>
+        <property name="minIdle" value="10"/>
+        <property name="maxWait" value="200000"/>
+        <property name="testWhileIdle" value="true"/>
+    </bean>
+
+    <!--configure the SqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="mapperLocations" value="classpath:mappers/*.xml"/>
+        <!--This setting have it unnecessary to write a full qualified class name in MyBatis mapper files!!!-->
+        <property name="typeAliasesPackage" value="seckill.entity"/>
+    </bean>
+
+    <!--scan the dao interfaces and dynamically implement them-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="seckill.dao"/>
+    </bean>
+</beans>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="seckill@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="seckill">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="cloudstudy"/>
+    <schema id="4" parent="1" name="example"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="mybatis"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="sakila"/>
+    <schema id="10" parent="1" name="sys"/>
+    <schema id="11" parent="1" name="tysql"/>
+    <schema id="12" parent="1" name="world"/>
+    <table id="13" parent="2" name="products">
+      <Comment>The table for seckill products</Comment>
+    </table>
+    <table id="14" parent="2" name="success_killed">
+      <Comment>The table for seckill success records</Comment>
+    </table>
+    <column id="15" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="16" parent="13" name="product_name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="13" name="product_num">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="13" name="product_price">
+      <Position>4</Position>
+      <Comment>in canadian dollars</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="13" name="create_time">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="20" parent="13" name="start_time">
+      <Position>6</Position>
+      <Comment>seckill start time</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="21" parent="13" name="end_time">
+      <Position>7</Position>
+      <Comment>seckill end time</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <index id="22" parent="13" name="create_time_idx">
+      <ColNames>create_time</ColNames>
+    </index>
+    <index id="23" parent="13" name="end_time_idx">
+      <ColNames>end_time</ColNames>
+    </index>
+    <index id="24" parent="13" name="start_time_idx">
+      <ColNames>start_time</ColNames>
+    </index>
+    <key id="25" parent="13" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="26" parent="14" name="product_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="14" name="user_phone">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="14" name="state">
+      <Position>3</Position>
+      <Comment>-1:invalid 0:success 1:paid 2:shipped</Comment>
+      <DataType>tinyint(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;-1&apos;</DefaultExpression>
+    </column>
+    <column id="29" parent="14" name="create_time">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="30" parent="14" name="create_time_idx">
+      <ColNames>create_time</ColNames>
+    </index>
+    <key id="31" parent="14" name="PRIMARY">
+      <ColNames>product_id
+user_phone</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="32" parent="14" name="success_killed_ibfk_1">
+      <ColNames>product_id</ColNames>
+      <RefSchemaName>seckill</RefSchemaName>
+      <RefTableName>products</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>update</OnUpdate>
+    </foreign-key>
+  </database-model>
+</dataSource>
