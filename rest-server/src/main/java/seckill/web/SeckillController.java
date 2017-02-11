@@ -77,6 +77,7 @@ public class SeckillController {
     @RequestMapping(path = "/{productId}/{md5}/execution", method = RequestMethod.POST, produces = {"application/json;charset=UTF-8"})
     @ResponseBody
     public SeckillResult<SeckillExecution> executeSeckill(@PathVariable("productId") Long productId, @PathVariable("md5") String md5, @CookieValue(value = "userPhone", required = false) Long userPhone) {
+
         if (userPhone == null) {
             return new SeckillResult<SeckillExecution>(false, "Not Signed in");
         }

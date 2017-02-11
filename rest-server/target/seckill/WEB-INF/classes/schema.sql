@@ -20,6 +20,7 @@ CREATE TABLE products (
   COMMENT = 'The table for seckill products';
 
 # initiate the table products
+# Me using "insert into" to insert multiple rows is allowed
 INSERT INTO products (product_name, product_num, product_price, start_time, end_time) VALUES
   ('iphone6', 100, 120, '2016-01-01 00:00:00', '2016-01-02 00:00:00'),
   ('ps4', 50, 100, '2016-01-02 00:00:00', '2016-01-03 00:00:00'),

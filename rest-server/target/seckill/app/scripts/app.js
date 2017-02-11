@@ -1,20 +1,42 @@
 'use strict';
 
-angular.module('seckill', ['ui.router', 'ngResource'])
-  .config(function ($stateProvider, $urlRouterProvider, $qProvider) {
-    $stateProvider
-      .state('list', {
-        url: '/',
-        views: {
-          'itemList': {
-            templateUrl: 'views/list.html',
-            controller: 'ListController'
-          }
-        }
-      });
+angular.module('seckill', ['ui.router', 'ngResource', 'ngCookies', 'ngDialog'])  //importing the third-party modules to use
+    .config(function ($stateProvider, $urlRouterProvider, $cookiesProvider) {
+        $cookiesProvider.defaults.path = '/';
+        $cookiesProvider.defaults.domain = 'localhost';
 
-    //redirecting to '/' page!!!
-    $urlRouterProvider.otherwise('/');
+        $stateProvider
+            .state('list', {
+                url: '/',
+                views: {
+                    'header': {
+                        templateUrl: 'views/header.html'
+                    },
+                    'content': {
+                        templateUrl: 'views/list.html',
+                        controller: 'ListController'
+                    }
+                }
+            })
+            .state('list.detail', {
+                url: ':id/detail',
+                views: {
+                    'content@': {
+                        templateUrl: 'views/detail.html',
+                        controller: 'DetailController'
+                    }
+                }
+            })
+            .state('list.login', {
+                url: 'login',
+                views: {
+                    'content@': {
+                        templateUrl: 'views/login.html',
+                        controller: 'LoginController'
+                    }
+                }
+            });
 
-    // $qProvider.errorOnUnhandledRejections(false);
-  });
+        //redirecting to '/' page!!!
+        $urlRouterProvider.otherwise('/');
+    });

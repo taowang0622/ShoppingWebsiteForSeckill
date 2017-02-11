@@ -7,3 +7,8 @@
 .sales p{
   font-style: italic;
 }
+
+.jumbotron{
+  background: #7986CB;
+  color: floralwhite;
+}

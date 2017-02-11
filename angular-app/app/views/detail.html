@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="col-xs-12" ng-if="!showDetail">
+        <h3>{{message}}</h3>
+    </div>
+    <div class="col-xs-12" ng-if="showDetail">
+        <div ng-class="['panel', {'panel-primary': !purchased, 'panel-success': purchased}]" style="text-align: center">
+            <div class="panel-heading sales">
+                <h3>{{item.productName}}</h3>
+                <h3><span class="label label-danger">{{item.productPrice | currency}}</span></h3>
+            </div>
+            <div class="panel-body">
+                <div ng-show="started">
+                    <h3>{{item.productNum}} in Stock</h3>
+                    <h3><span class="glyphicon glyphicon-time"></span>
+                        Start Time: {{item.startTime | date:'medium'}} - End Time: {{item.endTime | date:'medium'}}
+                    </h3>
+                    <div ng-show="purchased"
+                         ng-class="['alert', {'alert-warning': !successfulSeckill, 'alert-success': successfulSeckill}]">
+                        <h4 style=""><span class="glyphicon glyphicon-ok-circle" ng-if="successfulSeckill"></span>
+                            <span class="glyphicon glyphicon-ban-circle" ng-if="!successfulSeckill"></span>
+                            {{executionStateInfo}}
+                        </h4>
+                    </div>
+                </div>
+                <div ng-show="over">
+                    <h3>Sorry! Seckill for this item has ended!</h3>
+                </div>
+                <div ng-show="countingDown">
+                    <h3><span class="glyphicon glyphicon-time"></span> {{countDown}}</h3>
+                </div>
+            </div>
+            <div class="panel-footer" ng-show="exposed">
+                <button type="button" ng-class="['btn', {'btn-primary': !purchased, 'btn-success': purchased}]"
+                        ng-click="executeSeckill()">Purchase
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
