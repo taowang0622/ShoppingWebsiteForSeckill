@@ -10,6 +10,9 @@ AngularJs + Bootstrap
 ##Server Side
 Spring + SpringMVC + MyBatis
 
+##Database
+MySQL
+
 ##TODO
 Optimize the concurrency
 
