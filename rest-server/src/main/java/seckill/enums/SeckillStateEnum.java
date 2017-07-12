@@ -2,9 +2,7 @@ package seckill.enums;
 
 import java.util.Enumeration;
 
-/**
- * Created by taowang on 1/21/2017.
- */
+
 public enum SeckillStateEnum {
     //enumeration constants
     SUCCESS(1, "Seckill successful"),

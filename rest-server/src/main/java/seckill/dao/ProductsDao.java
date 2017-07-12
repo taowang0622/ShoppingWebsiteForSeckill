@@ -8,9 +8,6 @@ import seckill.entity.Product;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by taowang on 1/16/2017.
- */
 @Repository
 public interface ProductsDao {
     /**

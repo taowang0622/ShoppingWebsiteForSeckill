@@ -24,9 +24,7 @@ import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by taowang on 1/21/2017.
- */
+
 @Service
 public class SeckillServiceImpl implements SeckillService {
     private Logger logger = LoggerFactory.getLogger(this.getClass()); //For logging!!!!
@@ -71,7 +69,7 @@ public class SeckillServiceImpl implements SeckillService {
     }
 
     @Transactional
-    public SeckillExecution executeSeckill(long productId, long userPhone, String md5) throws SeckillException, RepeatSeckillException, SeckillClosedException {
+    public SeckillExecution executeSeckill(long productId, long userPhone, String md5) throws SeckillException, RepeatSeckillException, SeckillClosedException{
         if (md5 != null && !md5.equals(Md5.getMd5String(String.valueOf(productId), salt))) {
             throw new DataModifiedException("Data Modified");
         }
