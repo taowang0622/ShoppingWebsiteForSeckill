@@ -211,8 +211,8 @@
       <file leaf-file-name="db.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="63">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -274,6 +274,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/views/detail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/scripts/controllers.js" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
       </list>
     </option>
   </component>
@@ -1236,7 +1237,7 @@
       <workItem from="1499808875414" duration="498000" />
       <workItem from="1499809485679" duration="350000" />
       <workItem from="1499809882979" duration="1334000" />
-      <workItem from="1499882661504" duration="2819000" />
+      <workItem from="1499882661504" duration="3286000" />
     </task>
     <servers />
   </component>
@@ -1246,7 +1247,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69245000" />
+    <option name="totallyTimeSpent" value="69712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1752,8 +1753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="63">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
