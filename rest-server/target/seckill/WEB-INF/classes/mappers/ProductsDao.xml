@@ -17,6 +17,7 @@
               AND product_num > 0;
     </update>
 
+    <!--Since setting sqlSessionFactory's property "typeAliasesPackage" to "SnakeOnWeb.entity", no need to write a full qualified class name-->
     <select id="queryProduct" resultType="Product">
         SELECT *
         FROM products

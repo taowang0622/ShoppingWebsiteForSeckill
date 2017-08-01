@@ -9,13 +9,15 @@ CREATE TABLE products (
   COMMENT 'seckill start time',
   end_time      TIMESTAMP          NOT NULL
   COMMENT 'seckill end time',
-  PRIMARY KEY (id),
+  PRIMARY KEY (id),# primary key = primary index that adds restraints for values which are NOT NULL, UNIQUENESS!!
+# 　Indexes are used to find rows with specific column values quickly. Without an index, MySQL must begin with the first row and then read through the entire table to find the relevant rows.
+# The larger the table, the more this costs. If the table has an index for the columns in question, MySQL can quickly determine the position to seek to in the middle of the data file without having to look at all the data. This is much faster than reading every row sequentially.
   KEY start_time_idx(start_time),
   KEY end_time_idx(end_time),
   KEY create_time_idx(create_time)
 )
   ENGINE = innodb
-  AUTO_INCREMENT = 1000
+  AUTO_INCREMENT = 1000   #   auto increment from 1000
   DEFAULT CHARSET = utf8
   COMMENT = 'The table for seckill products';
 

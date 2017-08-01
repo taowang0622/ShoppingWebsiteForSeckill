@@ -9,6 +9,7 @@
     <!--Loading all context configuration files-->
     <init-param>
       <param-name>contextConfigLocation</param-name>
+      <!--Doing so make us able to use Service and Dao beans inside the controllers!!-->
       <param-value>classpath:spring/*.xml</param-value>
     </init-param>
   </servlet>

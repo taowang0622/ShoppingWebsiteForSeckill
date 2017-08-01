@@ -102,6 +102,7 @@
             <artifactId>spring-jdbc</artifactId>
             <version>4.3.4.RELEASE</version>
         </dependency>
+        <!--This is for transaction -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>

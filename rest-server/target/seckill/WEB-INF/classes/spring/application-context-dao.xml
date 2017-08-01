@@ -6,7 +6,11 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--Load the properties file for configuring the database connection-->
+    <!--Load the .properties file for configuring the database connection-->
+    <!--For JAVA EE, using ServletContext class to load .properties files-->
+    <!--approaches to load .properties files-->
+    <!--======>spring: <context:property-placeholder location=""/>
+    <!-=======>JAVAEE: ServletContext object's methods, like getResource(), getResourceAsStream(), getRealPath()-->
     <context:property-placeholder location="classpath:db.properties"/>
 
     <!--database connection pool-->
@@ -32,6 +36,7 @@
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath:mappers/*.xml"/>
         <!--This setting have it unnecessary to write a full qualified class name in MyBatis mapper files!!!-->
+        <!--<select id="queryAll" resultType="Product"></select> instead of <select id="queryAll" resultType="seckill.entity.Product"></select>-->
         <property name="typeAliasesPackage" value="seckill.entity"/>
     </bean>
 
