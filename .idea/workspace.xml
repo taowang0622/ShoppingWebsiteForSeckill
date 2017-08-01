@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e70dd23f-9dc0-45da-8181-adec4c440c05" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/enums/SeckillStateEnum.class" afterPath="$PROJECT_DIR$/rest-server/target/classes/seckill/enums/SeckillStateEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/service/impl/SeckillServiceImpl.class" afterPath="$PROJECT_DIR$/rest-server/target/classes/seckill/service/impl/SeckillServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/seckill/enums/SeckillStateEnum.class" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/seckill/enums/SeckillStateEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/seckill/service/impl/SeckillServiceImpl.class" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/seckill/service/impl/SeckillServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/pom.xml" afterPath="$PROJECT_DIR$/rest-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/mappers/ProductsDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/spring/application-context-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/rest-server/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/db.properties" afterPath="$PROJECT_DIR$/rest-server/target/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/rest-server/target/classes/mappers/ProductsDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/schema.sql" afterPath="$PROJECT_DIR$/rest-server/target/classes/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/rest-server/target/classes/spring/application-context-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/rest-server/target/classes/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/mappers/ProductsDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/schema.sql" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.ProductsDaoTest.xml" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.ProductsDaoTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.SuccessKilledDaoTest.xml" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.SuccessKilledDaoTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.service.impl.SeckillServiceImplTest.xml" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.service.impl.SeckillServiceImplTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.ProductsDaoTest.txt" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.ProductsDaoTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.SuccessKilledDaoTest.txt" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.SuccessKilledDaoTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.service.impl.SeckillServiceImplTest.txt" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.service.impl.SeckillServiceImplTest.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/rest-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,8 +89,8 @@
       <file leaf-file-name="SeckillException.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rest-server/src/main/java/seckill/exception/SeckillException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -1128,8 +1098,16 @@
       <workItem from="1497394061144" duration="560000" />
       <workItem from="1497549106131" duration="129000" />
       <workItem from="1497564602252" duration="334000" />
-      <workItem from="1501614887297" duration="85000" />
+      <workItem from="1501614887297" duration="301000" />
     </task>
+    <task id="LOCAL-00001" summary="start optimization">
+      <created>1501615014892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501615014892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1141,7 +1119,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18171000" />
+    <option name="totallyTimeSpent" value="18387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1163,10 +1141,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61513156" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61513156" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7201309" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5444079" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29742032" sideWeight="0.47953215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647504" sideWeight="0.5204678" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1226,6 +1204,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="start optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1660,8 +1642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-server/src/main/java/seckill/exception/SeckillException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding />
         </state>
       </provider>
