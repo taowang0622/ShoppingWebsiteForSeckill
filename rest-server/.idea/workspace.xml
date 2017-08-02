@@ -35,21 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeckillController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/seckill/web/SeckillController.java">
+      <file leaf-file-name="SeckillService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/seckill/service/SeckillService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="97" column="41" lean-forward="true" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+            <state relative-caret-position="236">
+              <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+      <file leaf-file-name="SeckillController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/seckill/web/SeckillController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+            <state relative-caret-position="210">
+              <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -58,33 +58,60 @@
       <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/seckill/service/impl/SeckillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="215">
+              <caret line="47" column="52" lean-forward="false" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <file leaf-file-name="RedisDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/cache/RedisDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-context-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-context-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state relative-caret-position="308">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#1168#1181#0" expanded="true" />
-                <element signature="e#1224#1242#0" expanded="true" />
-                <element signature="e#1285#1303#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/javafx-src.zip!/com/sun/scenario/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisPool.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3.jar!/redis/clients/jedis/JedisPool.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+              <folding>
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductsDao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1499901343285" expanded="true" signature="393:834" ph="UPDATE produ... " />
                 <marker date="1499901343285" expanded="true" signature="1055:1117" ph="SELECT * FRO... products" />
@@ -103,41 +130,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductsDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/seckill/dao/ProductsDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-context-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-context-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SuccessKilledDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/SuccessKilledDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+            <state relative-caret-position="483">
+              <caret line="26" column="82" lean-forward="false" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/ProductsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -192,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/views/detail.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/scripts/controllers.js" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductsDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/seckill/service/impl/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/dispatcher-servlet.xml" />
@@ -200,6 +206,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/application-context-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/seckill/dao/cache/RedisDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -228,15 +236,19 @@
           <item name="seckill Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seckill Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="371" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -296,6 +308,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,7 +332,34 @@
               <item name="rest-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seckill" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seckill" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +370,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -344,7 +383,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="git&#9;ACTION&#9;Git.Menu&#10;dao&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/resources/spring/application-context-dao.xml&#10;contro&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/web/SeckillController.java&#10;web&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/WEB-INF/web.xml&#10;pom&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/pom.xml&#10;serv&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/service/impl/SeckillServiceImpl.java&#10;sql&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/resources/schema.sql&#10;Produ&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dao/ProductsDao.java&#10;po&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/pom.xml&#10;con&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/controllers.js&#10;det&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;detail&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;app&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/app.js&#10;ser&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/services.js&#10;list&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/list.html&#10;Sec&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/web/SeckillController.java&#10;SeckillEx&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dto/SeckillExecution.java&#10;enum&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/enums/SeckillStateEnum.java&#10;deta&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;ht&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;htm&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;ind&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;enu&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/enums/SeckillStateEnum.java&#10;SeckillEn&#9;PSI&#9;JAVA://seckill.enums.SeckillStateEnum&#10;Seckill&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dto/SeckillExecution.java&#10;cont&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/controllers.js&#10;de&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;c&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/controllers.js&#10;in&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;lo&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/views/login.html&#10;login&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/views/login.html&#10;contr&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/web/SeckillController.java&#10;controller&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/scripts/controllers.js&#10;dis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/src/main/resources/spring/dispatcher-servlet.xml&#10;web.x&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/src/main/webapp/WEB-INF/web.xml&#10;Dis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/src/main/resources/spring/dispatcher-servlet.xml" />
+    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/pom.xml&#10;settings&#9;PSI&#9;JAVA://com.sun.scenario.Settings&#10;Red&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dao/cache/RedisDao.java&#10;serv&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/service/SeckillService.java&#10;dao&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dao/ProductsDao.java&#10;contro&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/web/SeckillController.java&#10;git&#9;ACTION&#9;Git.Menu&#10;web&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/WEB-INF/web.xml&#10;sql&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/resources/schema.sql&#10;Produ&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dao/ProductsDao.java&#10;po&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/rest-server/pom.xml&#10;con&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/controllers.js&#10;det&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;detail&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;app&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/app.js&#10;ser&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/services.js&#10;list&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/list.html&#10;Sec&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/web/SeckillController.java&#10;SeckillEx&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dto/SeckillExecution.java&#10;enum&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/enums/SeckillStateEnum.java&#10;deta&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;ht&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;htm&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;ind&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;enu&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/enums/SeckillStateEnum.java&#10;SeckillEn&#9;PSI&#9;JAVA://seckill.enums.SeckillStateEnum&#10;Seckill&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/dto/SeckillExecution.java&#10;cont&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/controllers.js&#10;de&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/views/detail.html&#10;c&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/scripts/controllers.js&#10;in&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/app/index.html&#10;lo&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/views/login.html&#10;login&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/views/login.html&#10;contr&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/java/seckill/web/SeckillController.java&#10;controller&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/rest-server/src/main/webapp/scripts/controllers.js&#10;dis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/src/main/resources/spring/dispatcher-servlet.xml&#10;web.x&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/src/main/webapp/WEB-INF/web.xml&#10;Dis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/src/main/resources/spring/dispatcher-servlet.xml" />
     <property name="editor.config.accepted" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -1049,7 +1088,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="95f00488-f49e-493c-8b4a-868c0d39ec1a" name="Default" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1486321529055</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -1098,6 +1136,7 @@
       <workItem from="1501465444982" duration="31000" />
       <workItem from="1501554192620" duration="350000" />
       <workItem from="1501611772468" duration="3090000" />
+      <workItem from="1501615823275" duration="4177000" />
     </task>
     <servers />
   </component>
@@ -1125,7 +1164,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116734000" />
+    <option name="totallyTimeSpent" value="120911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1141,7 +1180,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1162,7 +1201,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7006579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56206894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1270,17 +1309,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/web/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/web/ViewController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/angular-app/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/app.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/detail.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
@@ -1357,13 +1385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/ProductsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/seckill/entity/SuccessKilled.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1420,25 +1441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/service/SeckillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seckill/service/impl/SeckillServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,7 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,22 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/SuccessKilledDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/service/impl/SeckillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1536,7 +1525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/seckill/dao/ProductsDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="651">
           <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding />
         </state>
@@ -1546,6 +1535,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-context-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1553,7 +1573,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductsDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1499901343285" expanded="true" signature="393:834" ph="UPDATE produ... " />
             <marker date="1499901343285" expanded="true" signature="1055:1117" ph="SELECT * FRO... products" />
@@ -1562,38 +1582,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application-context-dao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/SuccessKilledDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="483">
+          <caret line="26" column="82" lean-forward="false" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/ProductsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/RedisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding>
-            <element signature="e#1168#1181#0" expanded="true" />
-            <element signature="e#1224#1242#0" expanded="true" />
-            <element signature="e#1285#1303#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/service/impl/SeckillServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="47" column="52" lean-forward="false" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/web/SeckillController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/service/SeckillService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="97" column="41" lean-forward="true" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+        <state relative-caret-position="236">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/index.html">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/javafx-src.zip!/com/sun/scenario/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="194">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/seckill/dao/cache/RedisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
           <folding />
         </state>
       </provider>

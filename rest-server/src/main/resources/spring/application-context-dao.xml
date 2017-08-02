@@ -45,4 +45,11 @@
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="basePackage" value="seckill.dao"/>
     </bean>
+
+    <!--In this case, creating a JAVA bean by using "parametrized constructor"===><constructor-arg index="0" value="${}"/>-->
+    <!--instead of using "no-argument constructor + setters"=====================><property name="" value=""/>-->
+    <bean id="redisDao" class="seckill.dao.cache.RedisDao">
+        <constructor-arg index="0" value="${redis.ip}"/>
+        <constructor-arg index="1" value="${redis.port}"/>
+    </bean>
 </beans>
