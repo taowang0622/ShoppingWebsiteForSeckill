@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70dd23f-9dc0-45da-8181-adec4c440c05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/artifacts/seckill_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/pom.xml" afterPath="$PROJECT_DIR$/rest-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/seckill.iml" afterPath="$PROJECT_DIR$/rest-server/seckill.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/spring/application-context-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/app/index.html" afterPath="$PROJECT_DIR$/rest-server/target/seckill/app/index.html" />
-    </list>
+    <list default="true" id="e70dd23f-9dc0-45da-8181-adec4c440c05" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/rest-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +49,8 @@
       <file leaf-file-name="RedisDaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1145,7 +1130,7 @@
       <workItem from="1497564602252" duration="334000" />
       <workItem from="1501614887297" duration="932000" />
       <workItem from="1501620583367" duration="989000" />
-      <workItem from="1501632511973" duration="7526000" />
+      <workItem from="1501632511973" duration="7599000" />
     </task>
     <task id="LOCAL-00001" summary="start optimization">
       <created>1501615014892</created>
@@ -1169,7 +1154,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27533000" />
+    <option name="totallyTimeSpent" value="27606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1193,7 +1178,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61513156" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.71875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5444079" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29742032" sideWeight="0.47953215" order="0" side_tool="false" content_ui="combo" />
@@ -1690,8 +1675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>

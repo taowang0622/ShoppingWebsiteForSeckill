@@ -14,7 +14,7 @@
     <context:property-placeholder location="classpath:db.properties"/>
 
     <!--database connection pool-->
-    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" >
         <property name="driverClassName" value="${jdbc.driverClassName}"/>
         <property name="url" value="${jdbc.url}"/>
         <property name="username" value="${jdbc.username}"/>
@@ -31,7 +31,8 @@
     </bean>
 
     <!--configure the SqlSessionFactory-->
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" >
+        <!--ref attribute for referencing other bean-->
         <property name="dataSource" ref="dataSource"/>
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath:mappers/*.xml"/>
@@ -48,6 +49,8 @@
 
     <!--In this case, creating a JAVA bean by using "parametrized constructor"===><constructor-arg index="0" value="${}"/>-->
     <!--instead of using "no-argument constructor + setters"=====================><property name="" value=""/>-->
+    <!--Strong dependency====>using <constructor-arg></constructor-arg>-->
+    <!--optional depency=====>using <property></property>-->
     <bean id="redisDao" class="seckill.dao.cache.RedisDao">
         <constructor-arg index="0" value="${redis.ip}"/>
         <constructor-arg index="1" value="${redis.port}"/>
