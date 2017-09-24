@@ -80,10 +80,12 @@ public class SeckillServiceImpl implements SeckillService {
             Date currentTime = new Date();
             int numOfUpddatedRows = productsDao.reduceNum(productId, currentTime);
             if (numOfUpddatedRows <= 0) {
+                //For rolling back as expected, It's the programmer's responsibility to throw an exception when unwanted thing happens!!
                 throw new SeckillClosedException("Seckill has been closed!");
             } else {
                 int numOfInsertedRows = successKilledDao.insertSuccessKilled(productId, userPhone);
                 if (numOfInsertedRows <= 0) {
+                    //For rolling back as expected, It's the programmer's responsibility to throw an exception when unwanted thing happens!!
                     throw new RepeatSeckillException("Repeated seckill!");
                 } else {
                     SuccessKilled successKilled = successKilledDao.querySuccessKilled(productId, userPhone);

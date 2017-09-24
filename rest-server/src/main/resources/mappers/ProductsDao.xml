@@ -6,6 +6,8 @@
 <mapper namespace="seckill.dao.ProductsDao">
 
     <!--Using SQL to filter instead of filtering inside Java, and the former is more efficient than the latter-->
+    <!--For update, insert delete tags, we don't need to specify the result type-->
+    <!--as there will be only one integer returned to indicate how many rows have been affected-->
     <update id="reduceNum">
         UPDATE products
         SET product_num = product_num - 1
@@ -17,6 +19,8 @@
               AND product_num > 0;
     </update>
 
+    <!--Since setting sqlSessionFactory's property "typeAliasesPackage" to "SnakeOnWeb.entity", no need to write a full qualified class name-->
+    <!--For select tag, we need to specify the result type-->
     <select id="queryProduct" resultType="Product">
         SELECT *
         FROM products
@@ -24,6 +28,7 @@
     </select>
 
     <!--Not using result-map is OK?-->
+    <!--For select tag, we need to specify the result type-->
     <select id="queryAll" resultType="Product">
         SELECT *
         FROM products
