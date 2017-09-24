@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<!--mapping the specific dao interfaces to specified SQL stattements-->
+<!--mapping the specific dao interfaces to specified SQL statements-->
 <mapper namespace="seckill.dao.ProductsDao">
 
     <!--Using SQL to filter instead of filtering inside Java, and the former is more efficient than the latter-->

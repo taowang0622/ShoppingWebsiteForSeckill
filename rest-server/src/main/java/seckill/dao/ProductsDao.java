@@ -8,7 +8,6 @@ import seckill.entity.Product;
 import java.util.Date;
 import java.util.List;
 
-@Repository
 public interface ProductsDao {
     /**
      * reduce # of the product specified by id

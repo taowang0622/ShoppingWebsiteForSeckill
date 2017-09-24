@@ -8,7 +8,6 @@ import seckill.entity.SuccessKilled;
 /**
  * Created by taowang on 1/16/2017.
  */
-@Repository
 public interface SuccessKilledDao {
     /**
      * This can prevent the user from purchase the same item more than once
