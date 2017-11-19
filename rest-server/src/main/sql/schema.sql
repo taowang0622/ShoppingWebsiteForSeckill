@@ -24,10 +24,10 @@ CREATE TABLE products (
 # initiate the table products
 # Me using "insert into" to insert multiple rows is allowed
 INSERT INTO products (product_name, product_num, product_price, start_time, end_time) VALUES
-  ('iphone6', 100, 120, '2016-01-01 00:00:00', '2016-01-02 00:00:00'),
-  ('ps4', 50, 100, '2016-01-02 00:00:00', '2016-01-03 00:00:00'),
-  ('xbox one', 50, 80, '2016-01-04 00:00:00', '2016-01-05 00:00:00'),
-  ('mac pro', 100, 70, '2016-01-04 00:00:00', '2016-01-05 00:00:00');
+  ('iphone6', 100, 120, '2017-10-30 00:00:00', '2017-11-02 00:00:00'),
+  ('ps4', 50, 100, '2017-11-01 00:00:00', '2017-11-05 00:00:00'),
+  ('xbox one', 50, 80, '2017-11-05 00:00:00', '2017-11-11 00:00:00'),
+  ('mac pro', 100, 70, '2017-10-27 00:00:00', '2017-11-12 00:00:00');
 
 CREATE TABLE success_killed (
   product_id  BIGINT    NOT NULL,

@@ -74,21 +74,24 @@ public class SeckillServiceImpl implements SeckillService {
             throw new DataModifiedException("Data Modified");
         }
 
-        //While accessing data base, some issues, like connection timeout, disconnected, may occur.
+        //While accessing data base, some issues, like connection timeout, disconnection, may occur.
         //At that time, this method as a single transaction must rollback!!!
         try {
             Date currentTime = new Date();
-            int numOfUpddatedRows = productsDao.reduceNum(productId, currentTime);
-            if (numOfUpddatedRows <= 0) {
+
+            int numOfInsertedRows = successKilledDao.insertSuccessKilled(productId, userPhone); //"INSERT" ahead of "UPDATE" to reduce the time of holding the lock
+            if (numOfInsertedRows <= 0) {
                 //For rolling back as expected, It's the programmer's responsibility to throw an exception when unwanted thing happens!!
-                throw new SeckillClosedException("Seckill has been closed!");
+                throw new RepeatSeckillException("Repeated seckill!");
             } else {
-                int numOfInsertedRows = successKilledDao.insertSuccessKilled(productId, userPhone);
-                if (numOfInsertedRows <= 0) {
+                int numOfUpddatedRows = productsDao.reduceNum(productId, currentTime); //"UPDATE" that will add an exclusive row-level lock
+                if (numOfUpddatedRows <= 0) {
                     //For rolling back as expected, It's the programmer's responsibility to throw an exception when unwanted thing happens!!
-                    throw new RepeatSeckillException("Repeated seckill!");
+                    throw new SeckillClosedException("Seckill has been closed!");
                 } else {
-                    SuccessKilled successKilled = successKilledDao.querySuccessKilled(productId, userPhone);
+                    //Seckill successful!!!
+                    //commit this transaction!!
+                    SuccessKilled successKilled = successKilledDao.querySuccessKilled(productId, userPhone); //"SELECT..WHERE.." is a nonlocking read
                     return new SeckillExecution(productId, SeckillStateEnum.SUCCESS, successKilled);
                 }
             }

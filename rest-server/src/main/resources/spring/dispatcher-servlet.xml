@@ -11,6 +11,7 @@
     <!--for specifying controllers-->
     <context:component-scan base-package="seckill.web"/>
 
+    <!--enables @RequestMapping, @ResponseBody, @PathVariable, etc. annotations-->
     <mvc:annotation-driven/>
 
     <!--Support the access of static resources, like jpg, html, png, jsp-->

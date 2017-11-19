@@ -10,13 +10,12 @@ public class SuccessKilled {
     private Long userPhone;
     private Byte state;
     private Date createTime;
+    private Product product; //reference to the seckilled product object!!!!
 
     public Product getProduct() {
         return product;
     }
-
-    private Product product; //reference to the seckilled product object!!!!
-
+    
 
     ////Getters for serializing the SuccessKilled objects to JSON format!!!
     public long getProductId() {

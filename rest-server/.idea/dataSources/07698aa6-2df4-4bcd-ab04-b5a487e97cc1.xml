@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="seckill@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
     <root id="1"/>
     <schema id="2" parent="1" name="seckill">
       <Current>1</Current>
@@ -23,165 +23,181 @@
     <table id="15" parent="2" name="products_copy"/>
     <table id="16" parent="2" name="success_killed"/>
     <table id="17" parent="2" name="success_killed_copy"/>
-    <column id="18" parent="14" name="id">
+    <routine id="18" parent="2" name="execute_seckill">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="19" parent="14" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="19" parent="14" name="product_name">
+    <column id="20" parent="14" name="product_name">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="20" parent="14" name="product_num">
+    <column id="21" parent="14" name="product_num">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="21" parent="14" name="product_price">
+    <column id="22" parent="14" name="product_price">
       <Position>4</Position>
       <Comment>in canadian dollars</Comment>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="22" parent="14" name="create_time">
+    <column id="23" parent="14" name="create_time">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="23" parent="14" name="start_time">
+    <column id="24" parent="14" name="start_time">
       <Position>6</Position>
       <Comment>seckill start time</Comment>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
     </column>
-    <column id="24" parent="14" name="end_time">
+    <column id="25" parent="14" name="end_time">
       <Position>7</Position>
       <Comment>seckill end time</Comment>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
     </column>
-    <index id="25" parent="14" name="create_time_idx">
+    <index id="26" parent="14" name="create_time_idx">
       <ColNames>create_time</ColNames>
     </index>
-    <index id="26" parent="14" name="end_time_idx">
+    <index id="27" parent="14" name="end_time_idx">
       <ColNames>end_time</ColNames>
     </index>
-    <index id="27" parent="14" name="start_time_idx">
+    <index id="28" parent="14" name="start_time_idx">
       <ColNames>start_time</ColNames>
     </index>
-    <key id="28" parent="14" name="PRIMARY">
+    <key id="29" parent="14" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="29" parent="15" name="id">
+    <column id="30" parent="15" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <column id="30" parent="15" name="product_name">
+    <column id="31" parent="15" name="product_name">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="31" parent="15" name="product_num">
+    <column id="32" parent="15" name="product_num">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="32" parent="15" name="product_price">
+    <column id="33" parent="15" name="product_price">
       <Position>4</Position>
       <Comment>in canadian dollars</Comment>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="33" parent="15" name="create_time">
+    <column id="34" parent="15" name="create_time">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="34" parent="15" name="start_time">
+    <column id="35" parent="15" name="start_time">
       <Position>6</Position>
       <Comment>seckill start time</Comment>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
     </column>
-    <column id="35" parent="15" name="end_time">
+    <column id="36" parent="15" name="end_time">
       <Position>7</Position>
       <Comment>seckill end time</Comment>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
     </column>
-    <column id="36" parent="16" name="product_id">
+    <column id="37" parent="16" name="product_id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="37" parent="16" name="user_phone">
+    <column id="38" parent="16" name="user_phone">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="38" parent="16" name="state">
+    <column id="39" parent="16" name="state">
       <Position>3</Position>
       <Comment>-1:invalid 0:success 1:paid 2:shipped</Comment>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;-1&apos;</DefaultExpression>
     </column>
-    <column id="39" parent="16" name="create_time">
+    <column id="40" parent="16" name="create_time">
       <Position>4</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <index id="40" parent="16" name="create_time_idx">
+    <index id="41" parent="16" name="create_time_idx">
       <ColNames>create_time</ColNames>
     </index>
-    <key id="41" parent="16" name="PRIMARY">
+    <key id="42" parent="16" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>product_id
 user_phone</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="42" parent="16" name="success_killed_ibfk_1">
+    <foreign-key id="43" parent="16" name="success_killed_ibfk_1">
       <ColNames>product_id</ColNames>
       <RefSchemaName>seckill</RefSchemaName>
       <RefTableName>products</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <column id="43" parent="17" name="product_id">
+    <column id="44" parent="17" name="product_id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="44" parent="17" name="user_phone">
+    <column id="45" parent="17" name="user_phone">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="45" parent="17" name="state">
+    <column id="46" parent="17" name="state">
       <Position>3</Position>
       <Comment>-1:invalid 0:success 1:paid 2:shipped</Comment>
       <DataType>tinyint(4)|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;-1&apos;</DefaultExpression>
     </column>
-    <column id="46" parent="17" name="create_time">
+    <column id="47" parent="17" name="create_time">
       <Position>4</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
+    <argument id="48" parent="18" name="v_seckill_id">
+      <DataType>bigint(20)|0</DataType>
+    </argument>
+    <argument id="49" parent="18" name="v_phone">
+      <DataType>bigint(20)|0</DataType>
+    </argument>
+    <argument id="50" parent="18" name="v_kill_time">
+      <DataType>timestamp|0</DataType>
+    </argument>
+    <argument id="51" parent="18" name="r_result">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>int(11)|0</DataType>
+    </argument>
   </database-model>
 </dataSource>
