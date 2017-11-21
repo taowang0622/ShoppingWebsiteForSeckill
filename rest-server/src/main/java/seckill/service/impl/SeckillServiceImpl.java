@@ -1,6 +1,7 @@
 package seckill.service.impl;
 
 import com.sun.org.apache.xerces.internal.impl.xpath.XPath;
+import org.apache.commons.collections.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ import seckill.util.Md5;
 
 import javax.annotation.Resource;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -69,7 +71,7 @@ public class SeckillServiceImpl implements SeckillService {
     }
 
     @Transactional
-    public SeckillExecution executeSeckill(long productId, long userPhone, String md5) throws SeckillException, RepeatSeckillException, SeckillClosedException{
+    public SeckillExecution executeSeckill(long productId, long userPhone, String md5) throws SeckillException, RepeatSeckillException, SeckillClosedException {
         if (md5 != null && !md5.equals(Md5.getMd5String(String.valueOf(productId), salt))) {
             throw new DataModifiedException("Data Modified");
         }
@@ -107,4 +109,44 @@ public class SeckillServiceImpl implements SeckillService {
             throw new SeckillException("Seckill inner error: " + e.getMessage());
         }
     }
+
+    public SeckillExecution executeSeckillProcedure(long productId, long phoneNum, String md5) {
+        if (md5 != null && !md5.equals(Md5.getMd5String(String.valueOf(productId), salt))) {
+            return new SeckillExecution(SeckillStateEnum.DATA_MODIFIED);
+        }
+
+        Date killTime = new Date();
+
+        //The type of value is Object that enable keys to be mapped to values with different types
+        HashMap<String, Object> paramMap = new HashMap<String, Object>();
+        paramMap.put("productId", productId);
+        paramMap.put("phoneNum", phoneNum);
+        paramMap.put("killTime", killTime);
+        paramMap.put("result", null);
+        //The reason of using HashMap is because after the execution of the procedure is done, I can get the value of the result
+        try {
+            productsDao.killByProcedure(paramMap);
+            //Obtain result
+            //            int result = (Integer) paramMap.get("result");
+            int result = MapUtils.getInteger(paramMap, "result", -2); //Using MapUtils to convert is more efficient than the above!!
+            if (result == 1) {
+                SuccessKilled sk = successKilledDao.querySuccessKilled(productId, phoneNum);
+                return new SeckillExecution(productId, SeckillStateEnum.SUCCESS, sk);
+            } else {
+                return new SeckillExecution(SeckillStateEnum.stateOf(result));
+            }
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+            //inner server error!!!
+            return new SeckillExecution(SeckillStateEnum.INNER_ERROR);
+        }
+    }
+
+//    public static void main(String[] args) {
+//        HashMap<String, Object> map = new HashMap<String, Object>();
+//        map.put("str", "hello world");
+//        map.put("int", 100);
+//        System.out.println(map.get("str"));
+//        System.out.println(map.get("int"));
+//    }
 }

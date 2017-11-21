@@ -33,7 +33,19 @@
         SELECT *
         FROM products
         ORDER BY create_time DESC
-        LIMIT #{offset},#{limit};
+        LIMIT #{offset}, #{limit};
     </select>
 
+    <!--Call the stored procedure through MyBatis-->
+    <!--statementType has three different values: PREPARED, STATEMENT and CALLABLE
+    which correspond to JDBC statement, JDBC PreparedStatement and stored procedure respectively
+    and by default it's PREPARED and passed parameters are inserted into a prepared statement-->
+    <select id="killByProcedure" statementType="CALLABLE">
+        CALL execute_seckill(
+                #{productId, jdbcType = BIGINT, mode = IN},
+                #{phoneNum, jdbcType = BIGINT, mode = IN},
+                #{killTime, jdbcType = TIMESTAMP, mode = IN},
+                #{result, jdbcType = INTEGER, mode = OUT}
+        );
+    </select>
 </mapper>

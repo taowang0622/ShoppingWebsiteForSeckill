@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by taowang on 1/27/2017.
+ * Asynchronous data interfaces!!!
  */
 @Controller
 @RequestMapping("/seckill")
@@ -84,23 +84,30 @@ public class SeckillController {
 
         SeckillResult<SeckillExecution> result;
 
-        try {
-            SeckillExecution seckillExecution = seckillService.executeSeckill(productId, userPhone, md5);
-            result = new SeckillResult<SeckillExecution>(true, seckillExecution);
-        } catch (RepeatSeckillException rse) {
-            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.REPEATED_SECKILL);
-            result = new SeckillResult<SeckillExecution>(true, execution);
-        } catch (SeckillClosedException sce) {
-            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.END);
-            result = new SeckillResult<SeckillExecution>(true, execution);
-        } catch (DataModifiedException dme) {
-            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.DATA_MODIFIED);
-            result = new SeckillResult<SeckillExecution>(true, execution);
-        } catch (Exception e) {
-            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.INNER_ERROR);
-            result = new SeckillResult<SeckillExecution>(false, execution, e.getMessage());
-        }
+//        try {
+//            SeckillExecution seckillExecution = seckillService.executeSeckill(productId, userPhone, md5);
+//            result = new SeckillResult<SeckillExecution>(true, seckillExecution);
+//        } catch (RepeatSeckillException rse) {
+//            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.REPEATED_SECKILL);
+//            result = new SeckillResult<SeckillExecution>(true, execution);
+//        } catch (SeckillClosedException sce) {
+//            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.END);
+//            result = new SeckillResult<SeckillExecution>(true, execution);
+//        } catch (DataModifiedException dme) {
+//            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.DATA_MODIFIED);
+//            result = new SeckillResult<SeckillExecution>(true, execution);
+//        } catch (Exception e) {
+//            SeckillExecution execution = new SeckillExecution(SeckillStateEnum.INNER_ERROR);
+//            result = new SeckillResult<SeckillExecution>(false, execution, e.getMessage());
+//        }
 
+        //Execute seckill by calling the stored procedure
+        SeckillExecution seckillExecution = seckillService.executeSeckillProcedure(productId, userPhone, md5);
+        if (SeckillStateEnum.stateOf(seckillExecution.getStateCode()) == SeckillStateEnum.INNER_ERROR) {
+            result = new SeckillResult<SeckillExecution>(false, seckillExecution, seckillExecution.getStateInfo());
+        } else {
+            result = new SeckillResult<SeckillExecution>(true, seckillExecution);
+        }
         return result;
     }
 

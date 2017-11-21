@@ -27,7 +27,10 @@
         <property name="maxIdle" value="10"/>
         <property name="minIdle" value="10"/>
         <property name="maxWait" value="200000"/>
-        <property name="testWhileIdle" value="true"/>
+        <!--Avoid nit being able to retrieve dat from DB after a few hours-->
+        <property name="testWhileIdle" value="true"/>  <!-- Just a switch to turn on the following two configurations-->
+        <property name="minEvictableIdleTimeMillis" value="7200000"/> <!-- 5 hours less than the time of MySQL checking-->
+        <property name="timeBetweenEvictionRunsMillis" value="3600000"/> <!-- Every one hour executing eviction to check all idle connections-->
     </bean>
 
     <!--configure the SqlSessionFactory-->

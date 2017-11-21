@@ -3,30 +3,42 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee">
 
-  <!--Configurations for the root application context(parent context)-->
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring/application-context-*.xml</param-value>
-  </context-param>
+    <!--Configurations for the "root application context(parent context)"-->
+    <listener>
+        <!--When this servlet context is created / this server is launched,
+        this listener will work and load the root application context-->
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <!--Apart from defining this servlet context param, we also need a listener to load application context files-->
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring/application-context-*.xml</param-value>
+    </context-param>
 
-  <!--Configurations for the DispatcherServlet application context(child context)-->
-  <servlet>
-    <servlet-name>dispatcher</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring/dispatcher-servlet.xml</param-value>
-    </init-param>
-    <!--This DispatcherServlet is created upon startup of this webapp-->
-    <load-on-startup>0</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>dispatcher</servlet-name>
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
+    <!--Configurations for the "DispatcherServlet application context(child context)"-->
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring/dispatcher-servlet.xml</param-value>
+        </init-param>
+        <!--This DispatcherServlet is created upon startup of this webapp-->
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 
+    <welcome-file-list>
+        <!--To get the static resource, the default servlet is needed, therefore <mvc:default-servlet-handler/> is necessary-->
+        <!--Path must be relative and the default root directory is "webapp/"-->
+        <welcome-file>dist/index.html</welcome-file>
+    </welcome-file-list>
 
+    <!--If this configuration doesn't exist, even though index.html is under webapp, "/" cannot open it automatically-->
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>index.html</welcome-file>-->
+    <!--</welcome-file-list>-->
 </web-app>

@@ -17,4 +17,13 @@
     <!--Support the access of static resources, like jpg, html, png, jsp-->
     <!--allow to use '/' to map to the default servlet-->
     <mvc:default-servlet-handler/>
+
+    <!--<mvc:resources mapping="/**" location="/dist/fonts/"/> doesn't work very well-->
+    <!--I don't know why but I'm sure it's not a good practice, because all paths would be passed to resource handler that is not efficient!!-->
+    <!--Therefore I use multiple mvc resources here-->
+    <mvc:resources mapping="/fonts/**" location="/dist/fonts/"/>
+    <mvc:resources mapping="/images/**" location="/dist/images/"/>
+    <mvc:resources mapping="/scripts/**" location="/dist/scripts/"/>
+    <mvc:resources mapping="/styles/**" location="/dist/styles/"/>
+    <mvc:resources mapping="/views/**" location="/dist/views/"/>
 </beans>

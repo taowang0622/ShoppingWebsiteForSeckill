@@ -45,25 +45,25 @@ public class SeckillServiceImplTest {
      */
     @Test
     public void seckillLogic(){
-        long productId = 1000L;
-        Long userPhone = 12345567L;
-        Exposer exposer = seckillService.exposeSeckillUrl(productId);
-        System.out.println("MD5: " + exposer.getMd5());
-        SeckillExecution execution;
-        try {
-            execution = seckillService.executeSeckill(exposer.getProductId(), userPhone, exposer.getMd5());
-        } catch (RepeatSeckillException e1) {
-            execution = new SeckillExecution(SeckillStateEnum.REPEATED_SECKILL);
-        } catch (SeckillClosedException e2) {
-            execution = new SeckillExecution(SeckillStateEnum.END);
-        } catch (DataModifiedException e3) {
-            execution = new SeckillExecution(SeckillStateEnum.DATA_MODIFIED);
-        } catch (SeckillException e4) {
-            execution = new SeckillExecution(SeckillStateEnum.INNER_ERROR);
-            System.out.println(e4.getMessage());
-        }
-
-        System.out.println(execution);
+//        long productId = 1000L;
+//        Long userPhone = 12345567L;
+//        Exposer exposer = seckillService.exposeSeckillUrl(productId);
+//        System.out.println("MD5: " + exposer.getMd5());
+//        SeckillExecution execution;
+//        try {
+//            execution = seckillService.executeSeckill(exposer.getProductId(), userPhone, exposer.getMd5());
+//        } catch (RepeatSeckillException e1) {
+//            execution = new SeckillExecution(SeckillStateEnum.REPEATED_SECKILL);
+//        } catch (SeckillClosedException e2) {
+//            execution = new SeckillExecution(SeckillStateEnum.END);
+//        } catch (DataModifiedException e3) {
+//            execution = new SeckillExecution(SeckillStateEnum.DATA_MODIFIED);
+//        } catch (SeckillException e4) {
+//            execution = new SeckillExecution(SeckillStateEnum.INNER_ERROR);
+//            System.out.println(e4.getMessage());
+//        }
+//
+//        System.out.println(execution);
     }
 
     @Test
@@ -74,6 +74,18 @@ public class SeckillServiceImplTest {
     @Test
     public void executeSeckill() throws Exception {
 
+    }
+
+    @Test
+    public void executeSeckillProcedure() throws Exception {
+        long productId = 1001L;
+        long phoneNum = 64755065233L;
+        Exposer exposer = seckillService.exposeSeckillUrl(1001);
+        if (exposer.isStarted()) {
+            String md5 = exposer.getMd5();
+            SeckillExecution exe = seckillService.executeSeckillProcedure(productId, phoneNum, md5);
+            System.out.println(exe.getStateInfo());
+        }
     }
 
 }

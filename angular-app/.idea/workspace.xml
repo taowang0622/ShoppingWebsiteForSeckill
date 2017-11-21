@@ -2,8 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e5a79c-a9d1-4ff8-984e-c1c27f5ee7b6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/docker/seckill.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/scripts/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/scripts/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/styles/myStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/scripts/main-3e0b22aa2f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/classes/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/scripts/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/scripts/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/styles/myStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/login.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/seckill/log/LoggingHandler.class" afterPath="$PROJECT_DIR$/../rest-server/target/classes/seckill/log/LoggingHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/dao/ProductsDao.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/dao/ProductsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/entity/SuccessKilled.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/entity/SuccessKilled.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/service/SeckillService.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/service/SeckillService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/web/SeckillController.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/web/SeckillController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/test-classes/seckill/service/impl/SeckillServiceImplTest.class" afterPath="$PROJECT_DIR$/../rest-server/target/test-classes/seckill/service/impl/SeckillServiceImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services.js" afterPath="$PROJECT_DIR$/app/scripts/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/docker/Dockerfile" afterPath="$PROJECT_DIR$/../rest-server/docker/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/pom.xml" afterPath="$PROJECT_DIR$/../rest-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/seckill.iml" afterPath="$PROJECT_DIR$/../rest-server/seckill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/dao/ProductsDao.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/dao/ProductsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/SeckillService.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/SeckillService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/impl/SeckillServiceImpl.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/impl/SeckillServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/web/SeckillController.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/web/SeckillController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/mappers/ProductsDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/spring/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/index.html" afterPath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/test/java/seckill/service/impl/SeckillServiceImplTest.java" afterPath="$PROJECT_DIR$/../rest-server/src/test/java/seckill/service/impl/SeckillServiceImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/db.properties" afterPath="$PROJECT_DIR$/../rest-server/target/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/mappers/ProductsDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/mappers/SuccessKillDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/mappers/SuccessKillDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/spring/application-context-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/spring/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/ProductsDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/SuccessKillDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/SuccessKillDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/index.html" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/dist/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,36 +89,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <marker date="1486789512540" expanded="true" signature="1404:1407" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="378">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -56,7 +104,7 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="504">
               <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding />
             </state>
@@ -83,20 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="126">
               <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
               <folding />
             </state>
@@ -106,7 +144,7 @@
       <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="315">
               <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
             </state>
@@ -116,18 +154,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="567">
               <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,9 +174,21 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="1890">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,6 +219,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -179,13 +234,13 @@
         <option value="$PROJECT_DIR$/app/views/detail.html" />
         <option value="$PROJECT_DIR$/app/views/list.html" />
         <option value="$PROJECT_DIR$/app/views/login.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -193,11 +248,59 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <gulpfiles>
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>jshint</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="jshint" />
+            </dependencies>
+            <task-name>usemin</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>imagemin</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="clean" />
+            </dependencies>
+            <task-name>copyfonts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="browser-sync" />
+            </dependencies>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="default" />
+            </dependencies>
+            <task-name>browser-sync</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="clean" />
+            </dependencies>
+            <task-name>default</task-name>
+          </GulpTaskState>
+        </tasks>
       </GulpfileState>
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
@@ -205,7 +308,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
@@ -285,42 +388,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/conFusion-integrating-client-and-server/conFusion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -329,8 +434,30 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/controllers.js&#10;gulp&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/gulpfile.js&#10;cont&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/controllers.js&#10;serv&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/services.js&#10;5&#9;null&#9;null&#10;app&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/app.js&#10;in&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;ind&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;login&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/views/login.html&#10;index&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;ser&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/services.js&#10;lis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/views/list.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -361,15 +488,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -390,6 +508,21 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.default" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -419,11 +552,14 @@
       <workItem from="1487702364038" duration="659000" />
       <workItem from="1487798143482" duration="4284000" />
       <workItem from="1487826200201" duration="194000" />
+      <workItem from="1511228838836" duration="157000" />
+      <workItem from="1511231283025" duration="3851000" />
+      <workItem from="1511291092261" duration="394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44574000" />
+    <option name="totallyTimeSpent" value="48976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,31 +571,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19104478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1904762" sideWeight="0.5065789" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19667171" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -530,7 +677,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <marker date="1486789512540" expanded="true" signature="1404:1407" ph="{...}" />
+            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -596,7 +743,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <marker date="1486789512540" expanded="true" signature="1404:1407" ph="{...}" />
+            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -654,7 +801,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
-            <marker date="1486789512540" expanded="true" signature="1404:1407" ph="{...}" />
+            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -712,7 +859,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <marker date="1486789512540" expanded="true" signature="1404:1407" ph="{...}" />
+            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -770,21 +917,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="798">
           <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
           <folding />
         </state>
@@ -792,25 +930,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="504">
           <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1486789512540" expanded="true" signature="1404:1407" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="315">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
@@ -823,17 +951,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="567">
           <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
@@ -855,19 +975,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="378">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

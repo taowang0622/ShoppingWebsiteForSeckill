@@ -49,6 +49,10 @@ public interface SeckillService {
      * @throws RepeatSeckillException
      * @throws SeckillClosedException
      */
-    SeckillExecution executeSeckill(long seckillId, long phoneNum, String md5)
-            throws SeckillException, RepeatSeckillException, SeckillClosedException, DataModifiedException;
+//    SeckillExecution executeSeckill(long seckillId, long phoneNum, String md5)
+//            throws SeckillException, RepeatSeckillException, SeckillClosedException, DataModifiedException;
+
+    //Earlier using exceptions to tell the JDBC transaction manager to do roll-back or commit
+    //Now that all transaction logic is put on the MySQL server side, those exceptions aren't needed!!
+    SeckillExecution executeSeckillProcedure(long productId, long phoneNum, String md5);
 }

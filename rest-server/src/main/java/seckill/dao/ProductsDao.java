@@ -7,6 +7,7 @@ import seckill.entity.Product;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 public interface ProductsDao {
     /**
@@ -30,4 +31,10 @@ public interface ProductsDao {
      * @return
      */
     List<Product> queryAll(@Param("offset") int offset, @Param("limit") int limit);
+
+    /**
+     * Execute seckill by the stored procedure!!
+     * @param paramMap
+     */
+    void killByProcedure(Map<String, Object> paramMap);
 }
