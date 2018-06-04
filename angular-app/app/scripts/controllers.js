@@ -99,6 +99,7 @@ angular.module('seckill')
                                             $scope.executionStateInfo = response.data.stateInfo;
                                             $scope.purchased = true;
                                             $scope.successfulSeckill = true;
+                                            $scope.item.productNum--;
                                         }
                                         else if (response.data.stateCode === 0) { //Seckill ended
                                             $scope.over = true;

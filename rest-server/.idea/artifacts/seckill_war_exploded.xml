@@ -10,7 +10,7 @@
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.8" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.8" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.1" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.5" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />

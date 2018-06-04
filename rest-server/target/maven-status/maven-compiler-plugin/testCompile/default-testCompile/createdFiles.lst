@@ -1,3 +1,4 @@
+seckill\dao\cache\RedisDaoTest.class
 seckill\service\impl\SeckillServiceImplTest.class
 seckill\dao\SuccessKilledDaoTest.class
 seckill\dao\ProductsDaoTest.class

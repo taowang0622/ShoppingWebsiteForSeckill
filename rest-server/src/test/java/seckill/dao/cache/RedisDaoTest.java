@@ -1,5 +1,6 @@
 package seckill.dao.cache;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ public class RedisDaoTest {
 //    }
 
     @Test
+    @Ignore
     public void testProduct() throws Exception{
         //get and put
         Product product = redisDao.getProduct(id);

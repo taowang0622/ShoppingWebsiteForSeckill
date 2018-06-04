@@ -10,7 +10,7 @@
             </div>
             <div class="panel-body">
                 <div ng-show="started">
-                    <h3>{{item.productNum}} in Stock</h3>
+                    <h3>{{successfulSeckill? item.productNum - 1 : item.productNum}} in Stock</h3>
                     <h3><span class="glyphicon glyphicon-time"></span>
                         Start Time: {{item.startTime | date:'medium'}} - End Time: {{item.endTime | date:'medium'}}
                     </h3>

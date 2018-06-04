@@ -1,8 +1,11 @@
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\service\SeckillService.java
+D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\dao\cache\RedisDao.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\exception\RepeatSeckillException.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\dao\ProductsDao.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\exception\SeckillClosedException.java
+D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\log\LoggingHandler.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\exception\DataModifiedException.java
+D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\web\ViewController.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\dto\SeckillResult.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\web\SeckillController.java
 D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\src\main\java\seckill\enums\SeckillStateEnum.java

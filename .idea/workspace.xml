@@ -1,7 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e70dd23f-9dc0-45da-8181-adec4c440c05" name="Default" comment="" />
+    <list default="true" id="e70dd23f-9dc0-45da-8181-adec4c440c05" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-app/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/docker/webapps/seckill.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/scripts/main-1d095ed519.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/scripts/main-2f3a208b75.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/scripts/main-3e0b22aa2f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/scripts/main-40f9753889.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/styles/main-0eb9fff4f5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/views/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/views/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/src/main/webapp/dist/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/dao/ProductsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/dao/SuccessKilledDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/dao/cache/RedisDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/dto/Exposer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/dto/SeckillExecution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/dto/SeckillResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/entity/Product.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/entity/SuccessKilled.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/enums/SeckillStateEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/exception/DataModifiedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/exception/RepeatSeckillException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/exception/SeckillClosedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/exception/SeckillException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/log/LoggingHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/service/SeckillService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/service/impl/SeckillServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/util/Md5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/classes/seckill/web/SeckillController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.idea/client-side.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/scripts/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/scripts/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/styles/myStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/test/spec/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/angular-app/test/spec/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.idea/client-side.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/scripts/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/scripts/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/styles/myStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/test/spec/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/client-side/test/spec/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/dist/scripts/main-1d095ed519.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/dist/scripts/main-2f3a208b75.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/dist/scripts/main-3e0b22aa2f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/seckill/dist/scripts/main-40f9753889.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/css/maven-base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/css/maven-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/dependencies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/dependency-convergence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/dependency-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/images/newwindow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/plugin-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/project-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rest-server/target/site/project-summary.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/test-classes/seckill/dao/cache/RedisDaoTest.class" afterPath="$PROJECT_DIR$/rest-server/target/test-classes/seckill/dao/cache/RedisDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/angular-app/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-app/app/scripts/app.js" afterPath="$PROJECT_DIR$/angular-app/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-app/app/scripts/services.js" afterPath="$PROJECT_DIR$/angular-app/app/scripts/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/artifacts/seckill_war.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/artifacts/seckill_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/artifacts/seckill_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/rest-server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/pom.xml" afterPath="$PROJECT_DIR$/rest-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/seckill.iml" afterPath="$PROJECT_DIR$/rest-server/seckill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/rest-server/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/main/sql/seckill.sql" afterPath="$PROJECT_DIR$/rest-server/src/main/sql/seckill.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java" afterPath="$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/db.properties" afterPath="$PROJECT_DIR$/rest-server/target/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/logback.xml" afterPath="$PROJECT_DIR$/rest-server/target/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/rest-server/target/classes/spring/application-context-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/rest-server/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/dist/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/rest-server/target/seckill/dist/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/seckill/dist/index.html" afterPath="$PROJECT_DIR$/rest-server/target/seckill/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.ProductsDaoTest.xml" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.ProductsDaoTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.SuccessKilledDaoTest.xml" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.dao.SuccessKilledDaoTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.service.impl.SeckillServiceImplTest.xml" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/TEST-seckill.service.impl.SeckillServiceImplTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.ProductsDaoTest.txt" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.ProductsDaoTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.SuccessKilledDaoTest.txt" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.dao.SuccessKilledDaoTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.service.impl.SeckillServiceImplTest.txt" afterPath="$PROJECT_DIR$/rest-server/target/surefire-reports/seckill.service.impl.SeckillServiceImplTest.txt" />
+    </list>
     <ignored path="$PROJECT_DIR$/rest-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +199,8 @@
       <file leaf-file-name="RedisDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-server/src/main/java/seckill/dao/cache/RedisDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="945">
+              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -49,8 +209,8 @@
       <file leaf-file-name="RedisDaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="189">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -59,12 +219,9 @@
       <file leaf-file-name="application-context-dao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-server/src/main/resources/spring/application-context-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
+            <state relative-caret-position="1050">
               <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-              <folding>
-                <element signature="e#3064#3077#0" expanded="true" />
-                <element signature="e#3121#3136#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +230,7 @@
         <entry file="file://$PROJECT_DIR$/rest-server/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -82,7 +239,7 @@
       <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Properties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="1806">
               <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
               <folding />
             </state>
@@ -92,8 +249,8 @@
       <file leaf-file-name="ContextConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+            <state relative-caret-position="1596">
+              <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -102,8 +259,8 @@
       <file leaf-file-name="BinaryJedis.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/jedis/BinaryJedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="429" column="0" lean-forward="true" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+            <state relative-caret-position="8442">
+              <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,7 +269,7 @@
       <file leaf-file-name="RuntimeSchema.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar!/com/dyuproject/protostuff/runtime/RuntimeSchema.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="966">
               <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
               <folding />
             </state>
@@ -122,7 +279,7 @@
       <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="2310">
               <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
               <folding />
             </state>
@@ -216,7 +373,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -229,33 +386,12 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ShoppingWebsiteForSeckill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingWebsiteForSeckill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingWebsiteForSeckill" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingWebsiteForSeckill" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rest-server" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -524,18 +660,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ShoppingWebsiteForSeckill" />
-      <envs />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -902,6 +1026,18 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ShoppingWebsiteForSeckill" />
+      <envs />
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -1131,6 +1267,7 @@
       <workItem from="1501614887297" duration="932000" />
       <workItem from="1501620583367" duration="989000" />
       <workItem from="1501632511973" duration="7599000" />
+      <workItem from="1528069804446" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="start optimization">
       <created>1501615014892</created>
@@ -1154,46 +1291,47 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27606000" />
+    <option name="totallyTimeSpent" value="27634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61513156" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5444079" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29742032" sideWeight="0.47953215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7299509" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647504" sideWeight="0.5204678" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61513156" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5444079" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29742032" sideWeight="0.47953215" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2647504" sideWeight="0.5204678" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1259,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,7 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,7 +1537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
           <caret line="99" column="34" lean-forward="true" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,7 +1659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,7 +1666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1546,7 +1673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1554,7 +1680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,7 +1687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,7 +1694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,7 +1701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,7 +1714,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="2310">
           <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
           <folding />
         </state>
@@ -1600,7 +1722,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar!/com/dyuproject/protostuff/runtime/RuntimeSchema.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="966">
           <caret line="70" column="39" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
           <folding />
         </state>
@@ -1610,29 +1732,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="262" column="18" lean-forward="false" selection-start-line="262" selection-start-column="18" selection-end-line="262" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3-sources.jar!/redis/clients/jedis/BinaryJedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="429" column="0" lean-forward="true" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+        <state relative-caret-position="8442">
+          <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        <state relative-caret-position="1596">
+          <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="1806">
           <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
           <folding />
         </state>
@@ -1641,7 +1762,7 @@
     <entry file="file://$PROJECT_DIR$/rest-server/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1656,27 +1777,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-server/src/main/resources/spring/application-context-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="1050">
           <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding>
-            <element signature="e#3064#3077#0" expanded="true" />
-            <element signature="e#3121#3136#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-server/src/main/java/seckill/dao/cache/RedisDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="945">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>

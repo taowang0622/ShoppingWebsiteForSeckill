@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration debug="true">
+    <!--Logback tries to find a file called "logback-test.xml" in the classpath which is resources directory in Spring project-->
+    <!--If no such file is found, tries to find "logback.groovy" in the classpath-->
+    <!--If no such file is found, then tries to find "logback.xml" in the classpath-->
+    <!--....-->
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoders are  by default assigned the type
@@ -9,7 +13,8 @@
         </encoder>
     </appender>
 
+    <!--<root></root> means root logger-->
     <root level="debug">
-        <appender-ref ref="STDOUT" />
+        <appender-ref ref="STDOUT"/>
     </root>
 </configuration>

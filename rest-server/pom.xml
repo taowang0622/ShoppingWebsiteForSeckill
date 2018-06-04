@@ -162,5 +162,16 @@
     </dependencies>
     <build>
         <finalName>seckill</finalName>
+        <!--Configuration of the plugin below can cause war package to be delivered to the specified dir-->
+        <!--when executing "mvn package" or "mvn war:war"-->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>D:\JAVA_PROJECTS\ShoppingWebsiteForSeckill\rest-server\docker\webapps\</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>

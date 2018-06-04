@@ -4,7 +4,7 @@ angular.module('seckill', ['ui.router', 'ngResource', 'ngCookies', 'ngDialog']) 
   .config(function ($stateProvider, $urlRouterProvider, $cookiesProvider) {
     $cookiesProvider.defaults.path = '/';
     // $cookiesProvider.defaults.domain = 'localhost';
-    $cookiesProvider.defaults.domain = 'ec2-35-183-5-195.ca-central-1.compute.amazonaws.com';
+    $cookiesProvider.defaults.domain = '192.168.99.101';
 
 
     $stateProvider

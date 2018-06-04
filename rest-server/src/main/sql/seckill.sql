@@ -1,4 +1,6 @@
 -- stored procedure for seckill transaction!
+# The command DELIMITER is special, and it doesn't end with ;!!!!!other than that all command should end with ;
+# a sequence that is ended with a delimiter is considered as a single statement by DBMS!!
 DELIMITER $$ -- Change the statement delimiter from ; to $$
 
 -- in=>input out=>output
@@ -51,6 +53,7 @@ CREATE PROCEDURE execute_seckill
 $$
 
 DELIMITER ;
+# Change the delimiter back from $$ to ;
 
 SET @r_result = -3;
 
@@ -60,6 +63,6 @@ SELECT @r_result; -- check the result!!
 
 # Some thoughts about stored procedures
 # 1:  don't rely on stored procedures too much
-# 2. for simple logic, we can use stored procedures, but don't for complex logic unless you work in a bank
+# 2. for simple logic, we can use stored procedures, otherwise don't do complex logic unless you work in a bank
 # 3. QPS: 6000qps for each item !!
 

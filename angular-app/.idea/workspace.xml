@@ -2,79 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e5a79c-a9d1-4ff8-984e-c1c27f5ee7b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/docker/seckill.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/images/yeoman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/scripts/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/scripts/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/scripts/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/styles/myStyleSheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/app/views/login.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/docker/webapps/seckill.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/scripts/main-1d095ed519.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/scripts/main-2f3a208b75.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/scripts/main-3e0b22aa2f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/classes/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/images/yeoman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/scripts/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/scripts/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/scripts/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/styles/myStyleSheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/app/views/login.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/seckill/log/LoggingHandler.class" afterPath="$PROJECT_DIR$/../rest-server/target/classes/seckill/log/LoggingHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/dao/ProductsDao.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/dao/ProductsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/entity/SuccessKilled.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/entity/SuccessKilled.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/service/SeckillService.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/service/SeckillService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/web/SeckillController.class" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/seckill/web/SeckillController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/test-classes/seckill/service/impl/SeckillServiceImplTest.class" afterPath="$PROJECT_DIR$/../rest-server/target/test-classes/seckill/service/impl/SeckillServiceImplTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/scripts/main-40f9753889.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/styles/main-0eb9fff4f5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/views/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/views/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.idea/client-side.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/scripts/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/scripts/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/styles/myStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/test/spec/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/angular-app/test/spec/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.idea/client-side.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/scripts/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/scripts/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/styles/myStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/app/views/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/test/spec/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/client-side/test/spec/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/scripts/main-1d095ed519.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/scripts/main-2f3a208b75.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/scripts/main-3e0b22aa2f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/scripts/main-40f9753889.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/css/maven-base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/css/maven-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/dependencies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/dependency-convergence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/dependency-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/images/newwindow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/plugin-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/project-info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../rest-server/target/site/project-summary.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/test-classes/seckill/dao/cache/RedisDaoTest.class" afterPath="$PROJECT_DIR$/../rest-server/target/test-classes/seckill/dao/cache/RedisDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers.js" afterPath="$PROJECT_DIR$/app/scripts/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services.js" afterPath="$PROJECT_DIR$/app/scripts/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/detail.html" afterPath="$PROJECT_DIR$/app/views/detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/artifacts/seckill_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../rest-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/docker/Dockerfile" afterPath="$PROJECT_DIR$/../rest-server/docker/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/pom.xml" afterPath="$PROJECT_DIR$/../rest-server/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/seckill.iml" afterPath="$PROJECT_DIR$/../rest-server/seckill.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/dao/ProductsDao.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/dao/ProductsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/SeckillService.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/SeckillService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/impl/SeckillServiceImpl.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/service/impl/SeckillServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/web/SeckillController.java" afterPath="$PROJECT_DIR$/../rest-server/src/main/java/seckill/web/SeckillController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/mappers/ProductsDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/index.html" afterPath="$PROJECT_DIR$/../rest-server/src/main/webapp/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/test/java/seckill/service/impl/SeckillServiceImplTest.java" afterPath="$PROJECT_DIR$/../rest-server/src/test/java/seckill/service/impl/SeckillServiceImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/../rest-server/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/main/sql/seckill.sql" afterPath="$PROJECT_DIR$/../rest-server/src/main/sql/seckill.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java" afterPath="$PROJECT_DIR$/../rest-server/src/test/java/seckill/dao/cache/RedisDaoTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/db.properties" afterPath="$PROJECT_DIR$/../rest-server/target/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/mappers/ProductsDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/mappers/SuccessKillDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/mappers/SuccessKillDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/logback.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/spring/application-context-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/classes/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../rest-server/target/classes/spring/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../rest-server/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/../rest-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/ProductsDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/ProductsDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/SuccessKillDao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/mappers/SuccessKillDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/application-context-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/classes/spring/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/index.html" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/seckill/dist/views/detail.html" afterPath="$PROJECT_DIR$/../rest-server/target/seckill/dist/views/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/surefire-reports/TEST-seckill.dao.ProductsDaoTest.xml" afterPath="$PROJECT_DIR$/../rest-server/target/surefire-reports/TEST-seckill.dao.ProductsDaoTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/surefire-reports/TEST-seckill.dao.SuccessKilledDaoTest.xml" afterPath="$PROJECT_DIR$/../rest-server/target/surefire-reports/TEST-seckill.dao.SuccessKilledDaoTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/surefire-reports/TEST-seckill.service.impl.SeckillServiceImplTest.xml" afterPath="$PROJECT_DIR$/../rest-server/target/surefire-reports/TEST-seckill.service.impl.SeckillServiceImplTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/surefire-reports/seckill.dao.ProductsDaoTest.txt" afterPath="$PROJECT_DIR$/../rest-server/target/surefire-reports/seckill.dao.ProductsDaoTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/surefire-reports/seckill.dao.SuccessKilledDaoTest.txt" afterPath="$PROJECT_DIR$/../rest-server/target/surefire-reports/seckill.dao.SuccessKilledDaoTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../rest-server/target/surefire-reports/seckill.service.impl.SeckillServiceImplTest.txt" afterPath="$PROJECT_DIR$/../rest-server/target/surefire-reports/seckill.service.impl.SeckillServiceImplTest.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,23 +162,16 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="angular-app" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="69">
+              <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -134,8 +200,28 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="138">
               <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,8 +230,18 @@
       <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,7 +250,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
+            <state relative-caret-position="459">
               <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
@@ -164,8 +260,18 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="94" column="98" lean-forward="false" selection-start-line="94" selection-start-column="98" selection-end-line="94" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -174,21 +280,29 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,6 +324,8 @@
       <find>response['successful']</find>
       <find>response['error']</find>
       <find>ngDia</find>
+      <find>$scope.item</find>
+      <find>$scope.item</find>
     </findStrings>
     <replaceStrings>
       <replace>response.successful</replace>
@@ -231,16 +347,16 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/listController.js" />
         <option value="$PROJECT_DIR$/app/views/header.html" />
         <option value="$PROJECT_DIR$/app/styles/myStyleSheet.css" />
-        <option value="$PROJECT_DIR$/app/views/detail.html" />
         <option value="$PROJECT_DIR$/app/views/list.html" />
         <option value="$PROJECT_DIR$/app/views/login.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/services.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers.js" />
+        <option value="$PROJECT_DIR$/app/views/detail.html" />
       </list>
     </option>
   </component>
@@ -309,7 +425,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
+    <option name="x" value="-11" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
@@ -388,38 +504,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular-app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,12 +519,13 @@
     <property name="editor.config.accepted" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/controllers.js&#10;gulp&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/gulpfile.js&#10;cont&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/controllers.js&#10;serv&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/services.js&#10;5&#9;null&#9;null&#10;app&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/app.js&#10;in&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;ind&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;login&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/views/login.html&#10;index&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;ser&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/services.js&#10;lis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/views/list.html" />
+    <property name="SearchEverywhereHistoryKey" value="serv&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/scripts/services.js&#10;app.&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/scripts/app.js&#10;gulp&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/gulpfile.js&#10;detai&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/views/detail.html&#10;deta&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/views/detail.html&#10;list&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/views/list.html&#10;ap&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/scripts/app.js&#10;con&#9;FILE&#9;file://D:/JAVA_PROJECTS/ShoppingWebsiteForSeckill/angular-app/app/scripts/controllers.js&#10;cont&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/controllers.js&#10;5&#9;null&#9;null&#10;app&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/app.js&#10;in&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;ind&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;login&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/views/login.html&#10;index&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/index.html&#10;ser&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/scripts/services.js&#10;lis&#9;FILE&#9;file://D:/ShoppingWebsiteForSeckill/angular-app/app/views/list.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.10.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -449,7 +539,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gulp.js.browser-sync">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -508,6 +598,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration name="browser-sync" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>browser-sync</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
     <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -518,6 +618,10 @@
       <arguments />
       <envs />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Gulp.js.browser-sync" />
+      <item index="1" class="java.lang.String" itemvalue="Gulp.js.default" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Gulp.js.default" />
@@ -555,11 +659,19 @@
       <workItem from="1511228838836" duration="157000" />
       <workItem from="1511231283025" duration="3851000" />
       <workItem from="1511291092261" duration="394000" />
+      <workItem from="1515989569251" duration="1126000" />
+      <workItem from="1515991230892" duration="186000" />
+      <workItem from="1515991881574" duration="498000" />
+      <workItem from="1520888545806" duration="1023000" />
+      <workItem from="1520951465242" duration="1261000" />
+      <workItem from="1521085390882" duration="69000" />
+      <workItem from="1528080179788" duration="88000" />
+      <workItem from="1528080291083" duration="2830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48976000" />
+    <option name="totallyTimeSpent" value="56057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,38 +684,71 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20574887" sideWeight="0.5263158" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20535715" sideWeight="0.47368422" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1904762" sideWeight="0.5065789" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19667171" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20574887" sideWeight="0.5263158" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20535715" sideWeight="0.47368422" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -616,43 +761,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/myStyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,9 +788,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,9 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,9 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,9 +958,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,37 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/moment/locale/ar-sa.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -951,18 +1017,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/main-a4a6bc6b90.js" />
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="459">
           <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/header.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="94" column="98" lean-forward="false" selection-start-line="94" selection-start-column="98" selection-end-line="94" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -975,45 +1097,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1511237467418" expanded="true" signature="1208:1209" ph="{...}" />
-          </folding>
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>

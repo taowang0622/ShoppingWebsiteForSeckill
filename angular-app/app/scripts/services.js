@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('seckill')
-    .constant('baseURL', 'http://ec2-35-183-5-195.ca-central-1.compute.amazonaws.com/seckill')
+    .constant('baseURL', 'http://192.168.99.101:8080/seckill')
     .factory('itemListFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
         return $resource(baseURL + '/list', null);
     }])
